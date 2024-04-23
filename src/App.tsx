@@ -1,4 +1,10 @@
+import { Header } from "./components/header";
+
 export function App() {
 
-  return <div>Teste</div>;
+  return (
+    <div className="max-w-screen-lg mx-auto py-5 flex flex-col gap-5">
+      <Header />
+    </div>
+  );
 }
